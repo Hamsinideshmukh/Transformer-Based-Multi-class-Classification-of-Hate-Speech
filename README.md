@@ -35,7 +35,7 @@
 
 #### Description
 
-<p align="justify"> I worked on detecting and classifying instances of hate in social media text, a growing area of interest in Natural Language Processing (NLP). My approach leverages state-of-the-art multilingual Transformer-based masked language models to identify hate speech across multiple languages. Capturing the intent behind a post or comment required analyzing not just the language style and semantic content, but also additional signals such as hashtags and emojis.
+<p align="justify"> I worked on detecting and classifying instances of hate in social media text,which is a growing area of interest in NLP, My approach leverages state-of-the-art multilingual Transformer-based masked language models to identify hate speech across multiple languages.Capturing the intent behind a post or comment required analyzing not just the language style and semantic content, but also additional signals Eg Hashtag and Emojis
 
 In this project, I focused on determining whether a Twitter post is hateful or offensive, and, if toxic, categorizing it into one of three classes: Hate Speech (HATE), Offensive (OFFN), or Profane (PRFN). Using a pre-trained multilingual Transformer as the backbone, I achieved Macro F1 scores of 90.29 (English), 81.87 (German), and 75.40 (Hindi) for hate speech detection, and 60.70, 53.28, and 49.74 for fine-grained classification on the respective test datasets.
 
